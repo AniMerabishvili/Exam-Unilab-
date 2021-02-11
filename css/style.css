@@ -1,4 +1,4 @@
-.myheader {
+/*.myheader {
 	background-image: url(../img/bg-image1.png);
 	background-size: cover;
 	background-position: center;
@@ -8,23 +8,29 @@
 	opacity: 0.5;
 	display: flex;
 	justify-content: space-between;
-}
-.test {
-	background-color: black;
+}*/
+.myheader {
+	background-image: url(../img/dark-bg-image.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	max-width: 100%;
+	height: 324px;
 }
 .pages {
+	color: white;
 	font-size: 12px;
 	font-family: 'Poppins';
-	text-transform: uppercase;	
+	text-transform: uppercase;
 }
-.color {
-	color: white;
-}
-.maincolor {
+.main-page {
 	color: #5863F8;
+	font-size: 12px;
+	font-family: 'Poppins';
+	text-transform: uppercase;
 }
 .navigation {
-	margin-right: 139px;
+	padding-right: 139px;
 	padding-top: 32px;
 }
 .wraper-li {
@@ -39,16 +45,20 @@
 .about-us {
 	font-size: 42px;
 	color: white;
-	font-family: 'Poppins';
-	padding-bottom: 119px;
-	padding-left: 139px; 
+	font-family: 'Poppins extrabold';
+	padding-left: 139px;
+	margin-top: 96px;
+}
+.nav-logo {
+	display: flex;
+	justify-content: space-between;
 }
 /*section1*/
 
 .about {
 	font-size: 14px;
 	color: #5863F8;
-	font-family: 'Poppins extrabold';
+	font-family: 'Poppins medium';
 	text-transform: uppercase;
 	margin-top: 128px;
 }
@@ -56,13 +66,13 @@
 	color: black;
 	font-size: 42px;
 	font-family: 'Poppins extrabold';
-	width: 373px;
+	max-width: 373px;
 	margin-top: 20px;
 }
 .paragraph1 {
 	color: black;
 	font-size: 16px;
-	width: 444px;
+	max-width: 444px;
 	font-family: 'Poppins medium';
 	margin-top: 20px;
 }
@@ -86,15 +96,12 @@
 	font-family: 'Poppins regular';
 	font-size: 14px;
 }
-.pool,
-.stairs {
-	width: 260px;
-	height: 185px;
+.pool {
+	margin-left: 16px;
 }
 .plant {
-	width: 536px;
-	height: 260px;
 	display: block;
+	margin-top: 16px;
 }
 .section1 {
 	display: flex;
@@ -103,10 +110,12 @@
 .images {
 	margin-top: 90px;
 }
-
+.texts1 {
+	margin-left: 70px;
+}
 /*section2*/
 .bg-image2 {
-	background-image: url(../img/bg-image2.png);
+	background-image: url(../img/leave-bg-image.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -118,7 +127,7 @@
 .about1 {
 	font-size: 14px;
 	color: #5863F8;
-	font-family: 'Poppins extrabold';
+	font-family: 'Poppins medium';
 	text-transform: uppercase;
 	position: absolute;
 	top: 92px;
@@ -161,12 +170,15 @@
 	font-size: 18px;
 	color: black;
 	font-family: 'Poppins extrabold';
-	width: 100px;
+	width: 188px;
+	margin-top: 15px;
+	text-align: center;
 }
 .paragraph {
-	width: 271px;
+	width: 250px;
 	color: #B1B1B1;
 	font-size: 14px;
 	font-family: 'Poppins regular';
 	text-align: center;
+	margin-top: 20px;
 }
