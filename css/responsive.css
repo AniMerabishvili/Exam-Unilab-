@@ -1,4 +1,4 @@
-/*@media (max-width: 480px) {
+@media (max-width: 480px) {
 	.myheader {
 		width: 100%;
 		background-size: cover;
@@ -125,8 +125,8 @@
 	.Priorities {
 		margin-top: 10px;
 	}
-}*/
-/*@media (max-width: 768px) {
+}
+@media (max-width: 768px) {
 	.myheader {
 		width: 100%;
 		background-size: cover;
@@ -187,7 +187,7 @@
 	.Priorities {
 		margin-top: 10px;
 	}
-}*/
+}
 @media (max-width: 1024px) {
 	.myheader {
 		width: 100%;
