@@ -158,7 +158,7 @@
 }
 .Priorities {
 	background-color: white;
-	width: 260px;
+	max-width: 260px;
 	margin-left: 16px;
 	display: flex;
 	justify-content: center;
@@ -170,12 +170,12 @@
 	font-size: 18px;
 	color: black;
 	font-family: 'Poppins extrabold';
-	width: 188px;
+	max-width: 188px;
 	margin-top: 15px;
 	text-align: center;
 }
 .paragraph {
-	width: 250px;
+	max-width: 250px;
 	color: #B1B1B1;
 	font-size: 14px;
 	font-family: 'Poppins regular';
